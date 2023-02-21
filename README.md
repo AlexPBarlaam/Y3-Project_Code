@@ -16,7 +16,7 @@ Let's get onto the code and how it works.
 
 The Simulation uses an Object-Oriented approach. It centers around Project_Main.py and Simulation.py which instantiate all classes and run the simulation respectively. The other classes hold data used by the simulation. The entity-relationship diagram below details all the classes, their attributes & methods, and how they relate to one another.  
 
-![Entity-Relationship Chart](Chart\ER_Diagram.png)
+![Entity-Relationship Chart](https://github.com/AlexPBarlaam/Y3-Project_Code/blob/main/Chart/ER_Diagram.png)
 
 
 # Algorithm
@@ -47,13 +47,13 @@ In the previous paragraph, it was mentioned that trains can be in multiple state
 # Operation
 If you wish to download and operate this, you will need to download all .py files in the repo. Run Project_Main.py and you should see something like this. 
 
-![Example Compile](Chart\Example_Compile.png)
+![Example Compile](https://github.com/AlexPBarlaam/Y3-Project_Code/blob/main/Chart/Example_Compile.png)
 
 The information printed on the screen shows when a train has changed state and at which time stamp and which train it was. In the example above, both train 1 and 2 started travelling along links at time stamp 1 and train 1 stopped at cambridge north 94 seconds later and so on.
 
 Before the simulation concludes, It will print the last state of each train.
 
-![Example State](Chart\Example_State.png)
+![Example State](https://github.com/AlexPBarlaam/Y3-Project_Code/blob/main/Chart/Example_State.png)
 
 Looking at the first state, the first line under the index (train1) displayed 0, second displayed None and third displayed a station showing that this train was stopped at a station.
 
